@@ -10,10 +10,10 @@ function App() {
     background: 'yellow'
   })
   return (
-    <div>
+    <>
      <ContainerColor state = {state} setState = {setState}></ContainerColor>
      <ContainerBack state = {state} setState = {setState}></ContainerBack>
-    </div>
+    </>
   )
 }
 
