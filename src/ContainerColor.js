@@ -9,6 +9,7 @@ const changeDiv = (props) =>{
     })
 }
 const ContainerColor = (props) => {
+
     return(
         <div style={{ backgroundColor: props.state.background, marginTop: '0px'}} className={s.container}>
             <button style={{ backgroundColor: props.state.color}} className = {s.button} onClick={() => changeDiv(props)}></button>
